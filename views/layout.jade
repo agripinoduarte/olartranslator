@@ -1,0 +1,15 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/bootstrap.css')
+    link(rel='stylesheet', href='/stylesheets/main.css')
+    script(src='http://code.jquery.com/jquery-1.10.2.min.js')
+    script(src='/javascripts/main.js')
+  body
+    nav(class="navbar navbar-default", role="navigation")
+        div(class="navbar-header")
+            button(type="button", class="navbar-toggle", data-toggle="collapse",data-target="#bs-example-navbar-collapse-1")
+                span(class="sr-only") Toggle navigatiom
+            a(class="navbar-brand" href="#") Olar Translator
+    block content
